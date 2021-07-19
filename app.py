@@ -29,3 +29,13 @@ def timeleft():
     return render_template("timeleft.html", message = message)
 #return redirect("/index")
 
+# @app.route('/result', methods = ["GET", "POST"])
+# def timeleft():
+#     input1 = request.form["month1"]
+#     input2 = request.form["month2"]
+#     input1_int = birthday_countdown1(input1)
+#     input2_int = birthday_countdown1(input2)    
+#     message = abs(input1_int - input2_int)
+    
+    
+#     return render_template("timeleft.html", message = message)
